@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gender Predictor</title>
+
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+            </script>
+        <script type="text/javascript" src="/javascript/main.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="data_input">
+            <h1>Gender Predictor</h1>
+            <p>Enter a piece of text below (e.g., a blogpost), and we will use the
+               Naive Bayes Classifier to guess the author's gender.</p>
+
+            <form>
+                <textarea id="raw_text" cols="80" rows="25" 
+                    placeholder="Enter text"></textarea>
+                <button id="load_model">Load NB Model</button>
+                <button id="predict" disabled>Guess Gender</button>
+                <span id="loading"></span>
+            </form> 
+
+        </div>
+        
+        
+        <div class="result">
+        <h3>Prediction</h3>
+            <p>Gender: <span id="gender"></span></p>
+            <p>Probability: <span id="prob"></span></p>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,55 @@
+body {background-color: #C6E270;
+    clear: both;
+    text-align: left;
+    margin: 0px auto;
+    padding: 5px;
+    width: 100%;
+    }
+
+h1 {color: #ffffff;
+    font-family: sans;
+    }
+
+h3 {font-family: sans;
+    }
+
+p {font-family: sans;
+    }
+
+button {font-family: sans;
+    font-size: 1.1em;
+    background-color: #FFFFCC;
+    margin-top: 10px;
+    padding: 10px;
+    border-style: none;
+    }
+
+button:hover {background-color: #f1f18a;
+    }
+
+textarea {padding: 10px;
+    border-width: medium;
+    border-color: black;
+    }
+
+#loading {font-family: sans;
+    padding: 5px;
+    }
+
+.data_input {float: left;
+    width: 60%;
+    }
+
+.result {margin: 0px;
+    float: left;
+    width: 300px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-top: 200px;
+    padding: 10px;
+    padding-left: 20px;
+    }
+
+
