@@ -77,6 +77,7 @@ class Classifier:
     # label   : Either "Male" or "Female" based on the algorithm's
     #           best guess, or 'No model loaded' if no model
     #           had been loaded.
+
     # prob    : Probability, in percentage, of confidence in the
     #           prediction. (As a float.)
     def predict(self,text):
@@ -91,6 +92,7 @@ class Classifier:
         text = re.sub('[^a-z]',' ',text)
         # Cut words at whitespace
         text = re.split(' {1,}',text)
+      
         
         # 2) Compute word frequencies
         textFreq = dict.fromkeys(self.wordNames,0)
